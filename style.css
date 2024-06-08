@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    color: rgba(59, 52, 52, 0.651);
+    text-align: center;
+    margin: 10px;
+}
+h1 {
+  color: rgba(0, 0, 0, 0.73);
+}
+h1:hover {
+  animation: color-change 3s infinite;
+}
+
+h2 {
+  color: rgba(42, 34, 34, 0.704);
+  font-size: large;
+}
+
+p {
+  color: rgba(27, 140, 116, 0.871);
+}
+
+b {
+  color:  rgba(31, 170, 140, 0.753);
+}
+@keyframes color-change {
+  0% {
+    color: rgba(59, 52, 52, 0.651);
+  }
+
+  50% {
+    color: rgb(31, 170, 139);
+  }
+
+  100% {
+    color: rgba(59, 52, 52, 0.651);
+  }
+}
+
+
+
+
+@keyframes slidein{
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    50% {
+      margin-left: 50%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
